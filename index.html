@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="/script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo.png" type="image/png" sizes="16x16">
+  <title>AIT || LOGIN FORM </title>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="ait-logo">
+    <h1>AHMEDABAD INSTITUTE OF TECHNOLOGY</h1>
+</div>
+<form method="POST" action="index.html">
+
+  
+        <div class="formm">
+            <h1 style="text-align: center; color: #fff;">
+              LOGIN FORM</h1>
+        </div>
+        <div class="reg-detail">
+            <br>
+            <label><b>First Name:-</b></label>
+            <input type="text" pattern="[A-Za-z]+" placeholder="Enter Your First Name" name="fname" id="fname" required><br>
+
+            <label><b>Last Name:-</b></label>
+            <input type="text" pattern="[A-Za-z]+" placeholder="Enter Your Last Name" name="Lname" id="lname" required><br>
+
+            <label><b>Phone No:-</b></label>
+            <input type="tel" pattern="[0-9]{10}" placeholder="Enter Your Phone Number" maxlength="10" name="phone" required id="phone"><br>
+
+            <label><b>Email Add:-</label>
+            <input type="email" placeholder="Enter Your Email Address" name="email" id="email" required><br>
+
+           
+           
+              <label><b>Date & Time</b></label>
+            <input type="date"  id="txtDate" required="Required" class="form-control" name="txtDate" min="2021-03-17" max="2021-03-31" placeholder="Select suitable date" />
+          
+
+        </div>
+  
+    </form>
+   
+    <script>
+      function myFunction() {
+          alert("Login is Successfully Done!!!");
+      }
+  </script>
+    <div class="regbtn">
+        <button type="submit" onclick="myFunction()">Login</button>
+    </div>
+    <h1>   <a href="index2.html">Next</a>
+    </h1>
+ 
+    <!-- <footer>
+      <p>Copyright ©2021 All rights reserved with by Ahmedabad Institute of Technology </p>
+      <br>
+  </footer> -->
+</body>
+</html>
